@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    background-color: #324975;;
+    color: white;
+  }
+  
+h1 {
+  padding: 0.5%;
+}
+
+.navbar {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+  }
+  
+.navbar-elem {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: rgb(57, 94, 162);
+  }
+
+.box {
+    display: flex;
+  }
+
+img {
+    border-radius: 8px;
+  }
+  
+.top {
+    margin:2%
+  }
+  
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: white;
+  }
+  
